@@ -1,0 +1,13 @@
+# Project 1/Benchmarks
+
+This folder contains all the 1D benchmarks described in section 4.2 of our report.
+The data for higher dimensions is found in the report.
+
+## Content
+The folders are indexed as follows:
+
+
+* N - Number of particles used (number between 1 and 500)
+* a - Value of variational parameter alpha used. Here, always 0.5
+* IS - Optional parameter, indicating that importance sampling was used.
+

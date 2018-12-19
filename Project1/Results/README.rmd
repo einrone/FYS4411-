@@ -1,0 +1,4 @@
+# Project 1/Results
+
+This folder contains all of the plots used in the report. They are placed in folders that correspond to
+the section in the report in which they appear.

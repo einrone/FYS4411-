@@ -1,0 +1,5 @@
+# Project 1/Report
+
+This folder contains our report.
+
+We also include the .tex file and the bibliography.

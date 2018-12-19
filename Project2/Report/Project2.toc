@@ -1,0 +1,61 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Theory}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}The Hamiltonian}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Analytic solution}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}The variational principle}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Neural-network quantum states and Restricted Boltzmann Machines}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Variational Monte Carlo methods}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}The local energy}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Sampling the position space}{6}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}The Metropolis algorithm}{6}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}The Metropolis-Hasting alogrithm/importance sampling}{7}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Gibbs Sampling}{7}{subsubsection.2.7.3}
+\contentsline {subsection}{\numberline {2.8}Optimizing our wavefunction in parameter space}{8}{subsection.2.8}
+\contentsline {section}{\numberline {3}Methods}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}An overview of the structure of our program}{8}{subsection.3.1}
+\contentsline {paragraph}{\texttt {main.cpp}}{8}{section*.2}
+\contentsline {paragraph}{\texttt {simulation.cpp}}{8}{section*.3}
+\contentsline {paragraph}{\texttt {system.cpp}}{9}{section*.4}
+\contentsline {subsection}{\numberline {3.2}Initializing our system}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Initializing the position}{9}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Initializing the parameters}{9}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Initializing the simulation}{9}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Proposing a new position}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Implementing the optimization of the biases and the weights}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}The errors in our energy}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Tuning the parameters}{10}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Tuning the step size, $\boldsymbol {dx}$}{11}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Tuning the learning rate, $\boldsymbol {\gamma }$ and the number of hidden nodes, $\boldsymbol {N}$}{11}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Choosing the number of Monte Carlo steps}{11}{subsubsection.3.6.3}
+\contentsline {subsection}{\numberline {3.7}Benchmarking our results}{11}{subsection.3.7}
+\contentsline {section}{\numberline {4}Results}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Tuning our neural network quantum state in the simplest system}{11}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Tuning $\boldsymbol {dx}$}{12}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Tuning $\boldsymbol {N}$ and $\boldsymbol {\gamma }$}{14}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Tuning our neural network quantum state in the interacting system}{16}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Tuning $\boldsymbol {dx}$}{16}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Tuning $\boldsymbol {N}$ and $\boldsymbol {\gamma }$}{19}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Results for the tuned system}{22}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}The noninteracting system}{22}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}The interacting system}{22}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}Discussion}{23}{section.5}
+\contentsline {subsection}{\numberline {5.1}Tuning the parameters}{23}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}The noninteracting case}{23}{subsubsection.5.1.1}
+\contentsline {paragraph}{The step size}{23}{section*.18}
+\contentsline {paragraph}{The learning rate and the number of hidden nodes}{23}{section*.19}
+\contentsline {subsubsection}{\numberline {5.1.2}The interacting case}{24}{subsubsection.5.1.2}
+\contentsline {paragraph}{The step size}{24}{section*.21}
+\contentsline {paragraph}{The learning rate and the number of hidden nodes}{24}{section*.22}
+\contentsline {subsection}{\numberline {5.2}Choosing the initial distributions}{24}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Results with the tuned parameters}{25}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}The noninteracting case}{25}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}The interacting case}{25}{subsubsection.5.3.2}
+\contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
+\contentsline {subsection}{\numberline {6.1}Conclusion}{25}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Outlook}{26}{subsection.6.2}
+\contentsline {section}{Appendices}{28}{section*.24}
+\contentsline {section}{\numberline {A}Finding the derivatives}{28}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.1}The local energy}{28}{subsection.a.A.1}
+\contentsline {subsection}{\numberline {A.2}The derivatives with respect to the parameters}{28}{subsection.a.A.2}
+\contentsline {subsection}{\numberline {A.3}The derivatives with Gibbs sampling}{29}{subsection.a.A.3}
+\contentsline {section}{\numberline {B}Deriving the spin of the ground state wavefunction}{29}{Appendix.a.B}

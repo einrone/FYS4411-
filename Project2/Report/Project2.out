@@ -1,0 +1,35 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Theory}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The Hamiltonian}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Analytic solution}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The variational principle}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Neural-network quantum states and Restricted Boltzmann Machines}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Variational Monte Carlo methods}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{The local energy}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.7}{Sampling the position space}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.8}{Optimizing our wavefunction in parameter space}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Methods}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{An overview of the structure of our program}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Initializing our system}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Proposing a new position}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Implementing the optimization of the biases and the weights}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.5}{The errors in our energy}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.6}{Tuning the parameters}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.7}{Benchmarking our results}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Results}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Tuning our neural network quantum state in the simplest system}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Tuning our neural network quantum state in the interacting system}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Results for the tuned system}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Tuning the parameters}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.2}{Choosing the initial distributions}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{Results with the tuned parameters}{section.5}% 26
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Conclusion}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Outlook}{section.6}% 29
+\BOOKMARK [1][-]{section*.24}{Appendices}{}% 30
+\BOOKMARK [1][-]{Appendix.a.A}{Finding the derivatives}{}% 31
+\BOOKMARK [2][-]{subsection.a.A.1}{The local energy}{Appendix.a.A}% 32
+\BOOKMARK [2][-]{subsection.a.A.2}{The derivatives with respect to the parameters}{Appendix.a.A}% 33
+\BOOKMARK [2][-]{subsection.a.A.3}{The derivatives with Gibbs sampling}{Appendix.a.A}% 34
+\BOOKMARK [1][-]{Appendix.a.B}{Deriving the spin of the ground state wavefunction}{}% 35

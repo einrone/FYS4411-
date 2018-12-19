@@ -1,0 +1,66 @@
+\begin{thebibliography}{}
+
+\bibitem[Botu and Ramprasad, 2015]{Botu2015}
+Botu, V. and Ramprasad, R. (2015).
+\newblock {Adaptive machine learning framework to accelerate ab initio
+  molecular dynamics}.
+\newblock {\em International Journal of Quantum Chemistry}, 115(16):1074--1083.
+
+\bibitem[Broecker et~al., 2017]{Broecker2017}
+Broecker, P., Carrasquilla, J., Melko, R.~G., and Trebst, S. (2017).
+\newblock {Machine learning quantum phases of matter beyond the fermion sign
+  problem}.
+\newblock {\em Scientific Reports}, 7(1):8823.
+
+\bibitem[Carleo and Troyer, 2017]{Carleo602}
+Carleo, G. and Troyer, M. (2017).
+\newblock {Solving the quantum many-body problem with artificial neural
+  networks}.
+\newblock {\em Science}, 355(6325):602--606.
+
+\bibitem[Griffiths, 2004]{Griffiths2004}
+Griffiths, D. (2004).
+\newblock {\em {Introduction to Quantum Mechanics}}.
+\newblock 2 edition.
+
+\bibitem[Heinesen et~al., 2018]{Heinsen2018}
+Heinesen, D., Lange, G., and Salihi, A. (2018).
+\newblock {FYS4411 - Project 1 Variational Monte Carlo}.
+
+\bibitem[Hinton, 2010]{Hinton2010}
+Hinton, G. (2010).
+\newblock {A Practical Guide to Training Restricted Boltzmann Machines}.
+\newblock Technical report, University of Toronto, Toronto.
+
+\bibitem[Hjorth-Jensen, 2015]{Hjorth-Jensen2015}
+Hjorth-Jensen, M. (2015).
+\newblock {\em {Computational Physics}}.
+\newblock Oslo.
+
+\bibitem[Hjorth-Jensen, 2018]{Hjorth-Jensen2018}
+Hjorth-Jensen, M. (2018).
+\newblock {Project 2, The restricted Boltzmannn machine applied to the quantum
+  many body problem.}
+
+\bibitem[Jonsson, 2018]{Jonsson2018}
+Jonsson, M. (2018).
+\newblock {\em {LECTURE NOTES FOR BLOCKING METHOD}}.
+
+\bibitem[{Pedersen Lohne} et~al., 2011]{PhysRevB.84.115302}
+{Pedersen Lohne}, M., Hagen, G., Hjorth-Jensen, M., Kvaal, S., and Pederiva, F.
+  (2011).
+\newblock {Ab initio computation of the energies of circular quantum dots}.
+\newblock {\em Phys. Rev. B}, 84(11):115302.
+
+\bibitem[Taut, 1994]{0305-4470-27-3-040}
+Taut, M. (1994).
+\newblock {Two electrons in a homogeneous magnetic field: particular analytical
+  solutions}.
+\newblock {\em Journal of Physics A: Mathematical and General}, 27(3):1045.
+
+\bibitem[Wang et~al., 2014]{Wang2014}
+Wang, N., Melchior, J., and Wiskott, L. (2014).
+\newblock {Gaussian-binary Restricted Boltzmann Machines on Modeling Natural
+  Image Statistics}.
+
+\end{thebibliography}

@@ -1,0 +1,60 @@
+# Project 1/src
+
+This folder contains the source code for our project.
+
+## Content
+
+### 1: Analytics
+This folder contains the Python scripts used to analyze the output of our data.
+
+### 2: VMC
+This folder contains our main C++ code.
+
+### 3: input
+This folder contains our parameter file, that can be updated to 
+change the parameters in our script.
+
+## Use
+### Setting the inputs
+The most important parameters to change is
+* **MC_cycles** The number of monte carlo steps. Please use *2^n* for some integer *n*
+* **N** The number of particles used.
+* **dimension** The number of dimension.
+* **numerical** 1 or 0. Determines if the energy will be calculated analytically or numerically.
+* **dx** The step length used in both brute force and importance sampling. In the rapport this may, when talking about import
+sampling be called *dt* instead of *dx*.
+* **D** The diffusion constant. When set to *0*, this will disable importance sampling, and use brute force. When using
+importance sampling, set this to *0.5*
+* **a** The interacting distance between particles. When set to *0*, the simulations will be run for a noninteracting system. When running a simulation with interacting particles, use *0.0043*
+
+One can use comments in the parameter file by using *#* in front of the comment.
+
+
+### Running the Simulation
+The program is compiled through QT, by opening the pro file in the QT editor and compiling. Before compiling one has to choose what to simulate. In **main** one will find the different types of simulate: Simulation of alphas in a given interval, simulation of a single alpha, finding of the optimal alpha using gradient descent, and the calculation of the onebody density. The instruction of which lines to comment/uncomment to run which type of simulation if found in **main**.
+
+To run the program, one can either run it from the QT editor, or through the terminal. When using the editor the program will run on 1 processor. By using the terminal, one can choose to run the program with more processes by
+
+```
+mpirun -np x VMC
+```
+where *x* is the number of processes used.
+
+### Analysis
+There are three different analysis programs: 
+
+The first will plot the results of the gradient descent. After doing the simulation, one should only need to run
+```
+python3 gradient_plot.py
+```
+
+The second program plots the onebody density. By default this will only plot the most recent onebody density made by the simulation. To be able compare the onebody densities with and without interaction, one needs to hardcode a different name for the file containing density in **simulation.cpp** to *density_non.bin*. One should then uncomment the commented lines in **flott_plots.py**. There is no problem running the program without these changes. This will only plot the onebody density for either the interacting or noninteracting onebody density, depending on parameters used when doing the simulation. To make the plot, only run 
+```
+python3 flott_plots.py
+```
+
+The last program calculate the local energy and error(by blocking) for given alphas. There are three different ways of running this program. The first is used when the simulation is run over an interval of alphas. The second is used then the simulation is used for one single alpha. The last is done to find the variance for different step length. There is no easy way of using this, and was mostly used by us to make a fast stability check -- so ignore this --. To change the way of using the program, (un)comment the different lines instructed in the last lines in **data_analytics.py**.To make the plot, only run 
+```
+python3 data_analytics.py
+```
+Note: When using the **data_analytics.py**, use that *MC_cycles* times *number of process* is on the form *2^n*, for some integer *n>0*. This is because blocking needs a data with such a length.

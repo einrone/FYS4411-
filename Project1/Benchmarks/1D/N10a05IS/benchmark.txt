@@ -1,0 +1,6 @@
+Analytic:
+Average: 5.0
+Time: 2.03s
+Numerical:
+Average:  4.9999917839025025
+Time: 9.59s

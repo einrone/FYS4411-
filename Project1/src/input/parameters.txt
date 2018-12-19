@@ -1,0 +1,13 @@
+MC_cycles 1048576
+beta 1 #2.82843
+alpha_min 0.3
+alpha_max .7
+alpha_num 20
+omega 1
+omega_z 1 #2.82843
+a 0 #0.0043
+dx 0.5
+dimensions 3
+N 10
+D 0
+numerical 0
